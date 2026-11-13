@@ -6,13 +6,15 @@
 
 > A 2D merge-game prototype built with Tuanjie Engine (Unity 2022.3), featuring merging, production, orders, chests, and a data-driven item system.
 
+**实机演示**：[B 站视频 · MergeProject](https://www.bilibili.com/video/BV1S3WB6QEmn)
+
 ![Engine](https://img.shields.io/badge/Engine-Tuanjie%201.10.4-2f6feb)
 ![Unity](https://img.shields.io/badge/Unity-2022.3.62t16-000000)
 ![Language](https://img.shields.io/badge/Language-C%23-512BD4)
 ![Status](https://img.shields.io/badge/Status-Prototype-orange)
 
 <p align="center">
-  <img src="screenshots/gameplay.png" width="420" alt="MergeProject 游戏画面">
+  <img src="images/合并类游戏封面.jpg" width="420" alt="MergeProject 游戏画面">
 </p>
 
 <p align="center">
@@ -42,10 +44,6 @@ flowchart LR
 - **宝箱背包**：点击侧边按钮展开宝箱栏，可将宝箱放入棋盘；升级时会随机获得不超过当前等级的宝箱。
 - **资源掉落**：合成成功后有一定概率在附近空槽生成经验、金币或能量物品。
 - **成长反馈**：经验条、等级、金币、能量实时刷新，升级需求随等级增长。
-
-<p align="center">
-  <img src="screenshots/gameplay.gif" width="320" alt="拖拽合成演示">
-</p>
 
 ## 已实现功能
 
@@ -172,7 +170,6 @@ MergeProject/
 │     └─ Demigiant/DOTween/         # DOTween 插件
 ├─ Packages/manifest.json
 ├─ ProjectSettings/
-├─ screenshots/                     # README 展示图与演示 GIF
 └─ README.md
 ```
 
