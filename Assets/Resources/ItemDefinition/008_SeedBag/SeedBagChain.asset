@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b00ffaf1d43cf394c88857883e7e6bc9, type: 3}
+  m_Name: SeedBagChain
+  m_EditorClassIdentifier: 
+  chainID: 8
+  stage: -1
+  itemType: 2
+  mergeItemDefinitions:
+  - {fileID: 11400000, guid: e5a5fa15f0362c04fb70279ca6589aae, type: 2}
+  - {fileID: 11400000, guid: ef6f9698061272b4f8ddddf4bbb14302, type: 2}
+  - {fileID: 11400000, guid: ba2a6cba2fe423148a4a51e854bb7ec2, type: 2}
+  - {fileID: 11400000, guid: 22a91a6101361ea44860659b16bbe3b7, type: 2}
+  - {fileID: 11400000, guid: c60d7f6d3f828eb49860aee179abda10, type: 2}
+  - {fileID: 11400000, guid: a87321595c9f6dd49a09c6b069f0a6d1, type: 2}
+  isTimesProducer: 1
+  produceChains:
+  - chain: {fileID: 11400000, guid: 76eca51308b7bd24fac4237107add23c, type: 2}
+    probability: 100
+  produceLevel: 3
+  produceInfos:
+  - tier: 4
+    maxCount: 5
+    timesInterval: 30
+  - tier: 5
+    maxCount: 15
+    timesInterval: 30
+  - tier: 6
+    maxCount: 40
+    timesInterval: 30

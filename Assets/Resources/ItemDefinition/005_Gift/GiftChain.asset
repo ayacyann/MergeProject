@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b00ffaf1d43cf394c88857883e7e6bc9, type: 3}
+  m_Name: GiftChain
+  m_EditorClassIdentifier: 
+  chainID: 5
+  stage: 2
+  itemType: 2
+  mergeItemDefinitions:
+  - {fileID: 11400000, guid: 38468d90962f8134ebe12b5e06aa2c95, type: 2}
+  - {fileID: 11400000, guid: c979f7a1a63728242a9f7619cb266343, type: 2}
+  - {fileID: 11400000, guid: 615c2b2afc7907c469e41600c1527637, type: 2}
+  - {fileID: 11400000, guid: a281b92e8f2933246ad95cb0d3e0aabc, type: 2}
+  - {fileID: 11400000, guid: 186b6537eb97f8a4eae7ff7cac71607c, type: 2}
+  - {fileID: 11400000, guid: 1ebc90e2e70964a4c92b4f8469f90450, type: 2}
+  isTimesProducer: 1
+  produceChains:
+  - chain: {fileID: 11400000, guid: c5841bd8abb96e04eacacc4a5f9ee820, type: 2}
+    probability: 100
+  produceLevel: 3
+  produceInfos:
+  - tier: 4
+    maxCount: 5
+    timesInterval: 30
+  - tier: 5
+    maxCount: 15
+    timesInterval: 30
+  - tier: 6
+    maxCount: 40
+    timesInterval: 30

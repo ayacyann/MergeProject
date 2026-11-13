@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b00ffaf1d43cf394c88857883e7e6bc9, type: 3}
+  m_Name: ChestChain
+  m_EditorClassIdentifier: 
+  chainID: 6
+  stage: -1
+  itemType: 3
+  mergeItemDefinitions:
+  - {fileID: 11400000, guid: 447f7dfd392c9a743a44ac1c117d7735, type: 2}
+  - {fileID: 11400000, guid: 22b44feac6f1dc04891d63870c3f3eec, type: 2}
+  - {fileID: 11400000, guid: 4f7b7f3696c8c0d49a0635a39bcd3815, type: 2}
+  - {fileID: 11400000, guid: a72495011b3449942b63b3fe0bce9424, type: 2}
+  - {fileID: 11400000, guid: d3acbea368c1b1046a344317685d80a5, type: 2}
+  - {fileID: 11400000, guid: fd4c7401ff3d1e94ea8aa8a72137c285, type: 2}
+  isTimesProducer: 1
+  produceChains:
+  - chain: {fileID: 11400000, guid: 3920dfb77c12cbb4a96f1f94c7ecb391, type: 2}
+    probability: 5
+  - chain: {fileID: 11400000, guid: 284ffe7571d0ffa4c8ed98efb30ea128, type: 2}
+    probability: 45
+  - chain: {fileID: 11400000, guid: 8a579efae38c38740b056747cfdb2479, type: 2}
+    probability: 50
+  produceLevel: 1
+  produceInfos:
+  - tier: 1
+    maxCount: 1
+    timesInterval: 30
+  - tier: 2
+    maxCount: 2
+    timesInterval: 30
+  - tier: 3
+    maxCount: 2
+    timesInterval: 30
+  - tier: 4
+    maxCount: 3
+    timesInterval: 30
+  - tier: 5
+    maxCount: 5
+    timesInterval: 30
+  - tier: 6
+    maxCount: 12
+    timesInterval: 30

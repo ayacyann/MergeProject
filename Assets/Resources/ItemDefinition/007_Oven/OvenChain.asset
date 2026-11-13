@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b00ffaf1d43cf394c88857883e7e6bc9, type: 3}
+  m_Name: OvenChain
+  m_EditorClassIdentifier: 
+  chainID: 7
+  stage: 1
+  itemType: 1
+  mergeItemDefinitions:
+  - {fileID: 11400000, guid: ee0e24980eabb71418bea6c61f1f6646, type: 2}
+  - {fileID: 11400000, guid: d42f04935778d8944b7873aac9f000f5, type: 2}
+  - {fileID: 11400000, guid: 95665a0d12c4688468fd1511b11105a7, type: 2}
+  - {fileID: 11400000, guid: 3f4d8da759b7a204887da024ed5c78fb, type: 2}
+  - {fileID: 11400000, guid: d3db2beb4bfa8f04f892c712817cbe93, type: 2}
+  - {fileID: 11400000, guid: dea5929da92993649857ca0bb7470de0, type: 2}
+  isTimesProducer: 1
+  produceChains:
+  - chain: {fileID: 11400000, guid: 7cf245f321fdbaa4d8a72f307dbf0b69, type: 2}
+    probability: 100
+  produceLevel: 4
+  produceInfos:
+  - tier: 4
+    maxCount: 10
+    timesInterval: 30
+  - tier: 5
+    maxCount: 25
+    timesInterval: 30
+  - tier: 6
+    maxCount: 60
+    timesInterval: 30

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d511a4d0a5128d4b83d4d6e83db4289, type: 3}
+  m_Name: BreadChain
+  m_EditorClassIdentifier: 
+  chainID: 3
+  stage: 0
+  itemType: 0
+  isTimesProducer: 0
+  produceChains: []
+  produceLevel: 4
+  produceCounts: []
+  mergeItemDefinitions:
+  - {fileID: 11400000, guid: 704110470c3519f4c958c346ea4d76db, type: 2}
+  - {fileID: 11400000, guid: 2d4890b1232cab9488fd5d437fcc8c3f, type: 2}
+  - {fileID: 11400000, guid: 8eb45fa6af178a0419839c47051d707b, type: 2}
+  - {fileID: 11400000, guid: 08fb4f3d97291344a9c5bde2efa36cb5, type: 2}
+  - {fileID: 11400000, guid: 228b39626d8ee7041837eeacbb1a3d76, type: 2}
+  - {fileID: 11400000, guid: 55147bd0b37a9d3438e9a3a30bde5d27, type: 2}

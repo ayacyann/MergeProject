@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d511a4d0a5128d4b83d4d6e83db4289, type: 3}
+  m_Name: XPChain
+  m_EditorClassIdentifier: 
+  chainID: 0
+  stage: -1
+  itemType: 4
+  mergeItemDefinitions:
+  - {fileID: 11400000, guid: 7c6d2f5acc6aa1c428fdb8ff23d7d691, type: 2}
+  - {fileID: 11400000, guid: cc00688b18de5db499b6a24092c77367, type: 2}
+  - {fileID: 11400000, guid: 0e5d86d2f1b25ae4cb7b7d3ea6c418f7, type: 2}
+  - {fileID: 11400000, guid: e61a81feb2688a245a3572d6181181a4, type: 2}
+  - {fileID: 11400000, guid: c43615400a66d874cab3f8ac0f9863b0, type: 2}
+  - {fileID: 11400000, guid: ab526616a6efaa940a723a5a194e1562, type: 2}
